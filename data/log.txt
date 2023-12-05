@@ -1,0 +1,13 @@
+[09:39:46.321285 -05:00] [---W---] [argeo/ardk-next/common/http/http_request_manager.cc:183] [thread 8016752] HttpRequetManager tasks may be still running when shutting down, or already stopped
+[09:21:07.244318 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 360848] Unable to transition: Started -> Waiting-To-Configure-From-Previously-Stopped-State
+[09:21:07.245078 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_managed_module.cc:333] [thread 1509676] AwarenessModule: Configuring, unable to transition to Configured-Then-Stop
+[09:21:07.245121 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 1509676] Unable to transition: Waiting-To-Configure-From-Previously-Running-State -> Configured-Then-Stop
+[09:21:07.245169 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 1509676] Unable to transition: Started -> Started
+[09:21:07.417048 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 1509676] Unable to transition: Started -> Initializing-Model
+[19:08:39.832787 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 8176] Unable to transition: Started -> Waiting-To-Configure-From-Previously-Stopped-State
+[19:08:39.833479 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_managed_module.cc:333] [thread 65162] AwarenessModule: Configuring, unable to transition to Configured-Then-Stop
+[19:08:39.833528 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 65162] Unable to transition: Waiting-To-Configure-From-Previously-Running-State -> Configured-Then-Stop
+[19:08:39.833581 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 65162] Unable to transition: Started -> Started
+[19:08:39.943649 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 65162] Unable to transition: Started -> Initializing-Model
+[19:09:08.072687 -08:00] [---W---] [argeo/ardk-next/core/modules/abstract_module.cc:202] [thread 65162] Unable to transition: Stopped -> Prediction-Complete
+[10:27:58.826978 -08:00] [---W---] [argeo/ardk-next/common/http/http_request_manager.cc:183] [thread 322283] HttpRequetManager tasks may be still running when shutting down, or already stopped

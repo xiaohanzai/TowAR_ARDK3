@@ -1,0 +1,55 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using System;
+using Niantic.ARDK.Extensions;
+using Niantic.ARDK.VirtualStudio.AR.Camera.Input;
+
+public class UIController : MonoBehaviour
+{
+    private GameObject ButtonAndMenuCanvas;
+    private GameObject ResourceCanvas;
+    private GameObject NetworkingCanvas;
+    private GameObject StartCanvas;
+    private GameObject EndCanvas;    
+
+    void Start()
+    {
+    }
+
+    // For all states, "active" bool is a parameter to determine whether to turn off or on the state
+    // Previous versions of scripts use "GetChild" and some index to get appropriate gameobjects,
+    // I'd recommend not doing this though as it'll cause issues if the ordering of children is changed.
+    // Either use a direct reference added above or use a "Find" style function from Unity for gameobjects
+
+    public void GatherState(bool active) {  // Add whatever parameters might be needed
+        //setup gather UI screen state, includes turning on gather details and turning off other state details if need be
+    }
+
+    public void ChooseState(bool active) {  // Add whatever parameters might be needed
+        //setup choose building UI screen state, includes turning on choosing building details and turning off other state details if need be
+    }
+
+    public void PlaceState(bool active) {  // Add whatever parameters might be needed
+        //setup place building UI screen state, includes turning on placing building details and turning off other state details if need be
+    }
+
+    public void StartState(bool active) {  // Add whatever parameters might be needed
+        //setup start UI screen state such as placing platform prompt
+    }
+
+    public void EndState(bool active) {  // Add whatever parameters might be needed
+        //setup end of game UI screen state such as placing platform prompt
+    }
+
+    public void Reset() {
+        // Call starting state function here (e.g. StartState), reset any variables
+    }
+
+    public void ResetScrollRect(RectTransform rect) {  // this could be used for any scrolling menus such as in the choose state, sets them back to top
+	rect.offsetMin = new Vector2(0,0);
+	rect.offsetMax = new Vector2(0,0);
+    }
+}

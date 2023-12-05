@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8449565ba71c50341af3ae07008067f4, type: 3}
+  m_Name: Wind_Turbine_LCL
+  m_EditorClassIdentifier: 
+  nameString: Wind Turbine
+  prefab: {fileID: 534893001075456355, guid: 81ed532b394cc4d028a7c343c07f4484, type: 3}
+  visual: {fileID: 91147632061397873, guid: 0cbd26bc5c2414e4c9ab68ef2b54bd91, type: 3}
+  width: 2
+  height: 2
+  nonCost: 2
+  bioCost: 7

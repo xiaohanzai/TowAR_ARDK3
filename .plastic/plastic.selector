@@ -1,0 +1,3 @@
+rep "ARDK3_Comp@SMC@cloud"
+  path "/"
+    smartbranch "/main/xiaohan_develop" changeset "139"                                        

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8449565ba71c50341af3ae07008067f4, type: 3}
+  m_Name: Capture_LCL
+  m_EditorClassIdentifier: 
+  nameString: Capture
+  prefab: {fileID: 6289873523465550132, guid: 8efed07024caf4f0fbc37bf5c0c23d9a, type: 3}
+  visual: {fileID: 8327203866982452542, guid: 4697615e44e554447a1d3647bf1ae7d6, type: 3}
+  width: 2
+  height: 2
+  nonCost: 2
+  bioCost: 7
